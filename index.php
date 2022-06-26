@@ -3,6 +3,7 @@
 
 <head>
   <?php include "layouts/head.html" ?>
+  <title>Space Roastery</title>
 </head>
 
 <body>

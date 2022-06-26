@@ -24,6 +24,16 @@
     width: 100%;
 }
 
+li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--orange);
+    text-decoration: none;
+}
+
 /* Style navbar */
 .nav-item a {
     font-size: 18px;
@@ -48,10 +58,10 @@
 
 /* Style Carrousel  */
 .carousel {
-    height: 550px;
+    height: 575px;
     overflow: hidden;
     position: relative;
-    top: 30px;
+    top: 20px;
 }
 
 .carousel-caption img {
