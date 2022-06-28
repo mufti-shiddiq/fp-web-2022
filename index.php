@@ -93,7 +93,7 @@
             </div>
           </div>
         </div>
-        <div class="text-center"><a href="" class="selengkapnya btn btn-primary mt-5">Lihat Selengkapnya</a></div>
+        <div class="text-center"><a href="produk.php" class="selengkapnya btn btn-primary mt-5">Lihat Selengkapnya</a></div>
       </div>
     </div>
   </section>

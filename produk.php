@@ -4,171 +4,8 @@
 <head>
     <?php include "layouts/head.html" ?>
     <title>Space Roastery</title>
-</head>
 
-<body>
-    <?php include "layouts/navbar.html" ?>
-
-    <!-- Content -->
-    <section>
-    <div class="wrap mb-5">
-    <div class="produk justify-content-center">
-        <h2 class="text-center mt-8 mb-5"><b>Katalog <span style="color:#EE6924;">Produk</span></b></h2>
-        <div class="row">
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/gayo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"> Gayo Apple Cider</h5>
-                <!-- <p>Bridge To Specialty Filter Coffee</p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/lintong.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Lintong</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/nutella.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Nutella</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/strawberry.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Strawberry</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-</section>
-<section>
-    <div class="wrap mb-5">
-    <div class="produk justify-content-center">
-        <div class="row">
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/gayo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"> Gayo Apple Cider</h5>
-                <!-- <p>Bridge To Specialty Filter Coffee</p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/lintong.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Lintong</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/nutella.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Nutella</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/strawberry.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Strawberry</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-</section>
-<section>
-    <div class="wrap mb-5">
-    <div class="produk justify-content-center">
-        <div class="row">
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/gayo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title"> Gayo Apple Cider</h5>
-                <!-- <p>Bridge To Specialty Filter Coffee</p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/lintong.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Lintong</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/nutella.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Nutella</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 15rem;">
-            <img src="assets/img/product/strawberry.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Strawberry</h5>
-                <!-- <p></p> -->
-                <a href="#" class="card-link">Rp125.000</a>
-                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-</section>
-
-<style>
+    <style>
     .center {
   text-align: center;
 }
@@ -194,6 +31,170 @@
   border-radius: 5px;
 }
 </style>
+</head>
+
+<body>
+    <?php include "layouts/navbar.html" ?>
+
+    <!-- Content -->
+    <section>
+    <div class="wrap mb-5">
+    <div class="produk justify-content-center">
+        <h2 class="text-center mt-8 mb-5"><b>Katalog <span style="color:#EE6924;">Produk</span></b></h2>
+        <div class="row">
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/gayo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Gayo Apple Cider</h5>
+                <!-- <p>Bridge To Specialty Filter Coffee</p> -->
+                <a href="#" class="card-link">Rp75.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/lintong.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lintong Green Mango</h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp75.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/nutella.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nutella of Cerrado</h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp95.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/strawberry.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Strawberry</h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp75.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section>
+    <div class="wrap mb-5">
+    <div class="produk justify-content-center">
+        <div class="row">
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/blueberry.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Blueberry of Thika</h5>
+                <!-- <p>Bridge To Specialty Filter Coffee</p> -->
+                <a href="#" class="card-link">Rp90.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/flower.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bombe Flower Bomb</h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp125.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/pink.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Pink Mandarin</h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp75.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/starfruit.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Aiyura Valley Starfruit</h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp90.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section>
+    <div class="wrap mb-5">
+    <div class="produk justify-content-center">
+        <div class="row">
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/tabe.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Tabe Burka Tangerine</h5>
+                <!-- <p>Bridge To Specialty Filter Coffee</p> -->
+                <a href="#" class="card-link">Rp85.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/ccb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">CCB - Coffee Capsule Bundle</h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp249.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/joanna.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Heartbreaker Vol.2 - Joanna</h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp100.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+            <img src="assets/img/product/summer.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Summer Lot 18 - From Finca Santa Teresa<Tem></Tem></h5>
+                <!-- <p></p> -->
+                <a href="#" class="card-link">Rp90.000</a>
+                <a href="#" class="btn float-end btn-sm btn-primary">Detail</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
 <div class="center">
 <div class="pagination">
 <a href="#">&laquo;</a>
