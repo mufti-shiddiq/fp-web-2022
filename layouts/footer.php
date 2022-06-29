@@ -1,3 +1,8 @@
+<!-- CTA WhatsApp -->
+<a href="https://api.whatsapp.com/send/?phone=6282288909088&text=Hi%2C+Space+Roastery+%EF%BF%BD&app_absent=0" target="_blank" class="btn btn-whatsapp btn-icon btn-icon-left" id="cta">
+    <span class="fa fa-whatsapp fa-2x" style="font-size: 20px;">&nbsp; CHAT TO WHATSAPP</span>
+</a>
+
 <!-- Section Footer -->
 <section>
   <div class="footer">

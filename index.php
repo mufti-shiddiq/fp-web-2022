@@ -1,13 +1,17 @@
+<?php
+$thisPage = "index";
+?>
+
 <!doctype html>
 <html lang="en">
 
 <head>
-  <?php include "layouts/head.html" ?>
+  <?php include "layouts/head.php" ?>
   <title>Space Roastery</title>
 </head>
 
 <body>
-  <?php include "layouts/navbar.html" ?>
+  <?php include "layouts/navbar.php" ?>
 
   <!-- Slide Show -->
   <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
@@ -93,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class="text-center"><a href="" class="selengkapnya btn btn-primary mt-5">Lihat Selengkapnya</a></div>
+        <div class="text-center"><a href="produk.php" class="selengkapnya btn btn-primary mt-5">Lihat Selengkapnya</a></div>
       </div>
     </div>
   </section>
@@ -299,8 +303,8 @@
   </section>
   <!-- End section review -->
 
-  <?php include "layouts/footer.html" ?>
-  <?php include "layouts/footer-script.html" ?>
+  <?php include "layouts/footer.php" ?>
+  <?php include "layouts/footer-script.php" ?>
 
 </body>
 
