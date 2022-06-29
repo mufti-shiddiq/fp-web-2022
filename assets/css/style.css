@@ -274,6 +274,11 @@ li a:hover {
     color: white;
 }
 
+.copyright {
+    background-color: var(--orange);
+    color: white;
+}
+
 .footer li {
     margin-top: 8px;
     margin-left: -30px;
