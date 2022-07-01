@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow">
   <div class="container-fluid">
-    <a class="navbar-brand ms-5" href="#">
+    <a class="navbar-brand ms-5" href="./">
       <img id="logo-brand" src="assets/img/spacecompanylogo1.png" alt="Ags Shop">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,15 +37,11 @@
 <!-- End Navbar -->
 
 <!-- Modal Login -->
-<!-- <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered"> -->
-
 <div id="loginModal" class="modal fade">
   <div class="modal-dialog modal-login modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Member Login</h4>
-        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
         <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-hidden="true"></button>
       </div>
       <div class="modal-body">
