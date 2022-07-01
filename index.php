@@ -208,7 +208,7 @@ $thisPage = "index";
             </div>
           </div>
         </div>
-        <div class="text-center"><a href="" class="selengkapnya btn btn-primary mt-5">Lihat Selengkapnya</a></div>
+        <div class="text-center"><a href="produk.php" class="selengkapnya btn btn-primary mt-5">Lihat Selengkapnya</a></div>
       </div>
     </div>
   </section>
@@ -221,17 +221,19 @@ $thisPage = "index";
       <div class="alasan mt-8 mb-5">
         <div class="row">
           <div class="col-md-6">
-            <img style="width: 100%;" class="img-fluid" src="assets/img/front-office.jpg">
+            <img style="width: 100%;" class="img-fluid" src="assets/img/slide-5.jpg">
           </div>
           <div class="col-md-6">
             <h3 class="mt-4 ms-4">Space Roastery</h3>
             <p class="ms-4 mt-3 pr-2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis consequuntur inventore quos, odit eum debitis unde, odio modi harum, illum deserunt?
+              Singkat cerita, pada waktu kami kembali lagi tinggal di Indonesia, kami menemukan kejanggalan, di
+              negara yang merupakan penghasil salah satu penghasil kopi terbesar di dunia, kami kesusahan untuk
+              mendapatkan kopi berkualitas yang selalu kami konsumsi pada saat kami masih di luar negeri.
             </p>
             <p class="ms-4 mt-3">
               Untuk mengetahui lebih lanjut, silahkan klik tombol berikut
             </p>
-            <a href="#" class="btn btn-primary ms-4">Selengkapnya</a>
+            <a href="aboutus.php" class="btn btn-primary ms-4">Selengkapnya</a>
           </div>
         </div>
       </div>
