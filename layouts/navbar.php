@@ -24,10 +24,10 @@
         </li>
       </ul>
       <form class="d-flex me-5">
-        <a href="checkout.php">
+        <a type="button" href="checkout.php">
           <img src="assets/img/keranjang.svg" alt="">
         </a>
-        <a href="#">
+        <a type="button" data-bs-toggle="modal" data-bs-target="#loginModal">
           <img src="assets/img/akun.svg" alt="">
         </a>
       </form>
@@ -35,3 +35,39 @@
   </div>
 </nav>
 <!-- End Navbar -->
+
+<!-- Modal Login -->
+<!-- <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered"> -->
+
+<div id="loginModal" class="modal fade">
+  <div class="modal-dialog modal-login modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Member Login</h4>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-hidden="true"></button>
+      </div>
+      <div class="modal-body">
+        <form action="/examples/actions/confirmation.php" method="post">
+          <div class="form-group">
+            <i class="fa fa-user"></i>
+            <input type="text" class="form-control" placeholder="Username" required="required">
+          </div>
+          <div class="form-group">
+            <i class="fa fa-lock"></i>
+            <input type="password" class="form-control" placeholder="Password" required="required">
+          </div>
+          <div class="form-group">
+            <!-- <input type="submit" class="btn btn-primary btn-block btn-lg text-center justify-content-center" value="Login"> -->
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#">Lupa Password?</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal Login -->

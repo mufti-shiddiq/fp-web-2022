@@ -1,3 +1,7 @@
+<?php
+$thisPage = "checkout";
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -23,7 +27,7 @@
                 <div class="col-md-8">
                     <div class="card mb-4">
                         <div class="card-header py-3">
-                            <h5 class="mb-0">Cart - 2 items</h5>
+                            <h5 class="mb-0">Keranjang - 2 Barang</h5>
                         </div>
                         <div class="card-body">
                             <!-- Single item -->
@@ -58,7 +62,7 @@
 
                                         <div class="form-outline">
                                             <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" oninput="hitungTotal()" />
-                                            <label class="form-label" for="form1">Quantity</label>
+                                            <label class="form-label" for="form1">Jumlah</label>
                                         </div>
 
                                         <button class="btn btn-secondary px-3 ms-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp(); hitungTotal()">
@@ -111,7 +115,7 @@
 
                                         <div class="form-outline">
                                             <input id="form2" min="0" name="quantity" value="1" type="number" class="form-control" oninput="hitungTotal()" />
-                                            <label class="form-label" for="form2">Quantity</label>
+                                            <label class="form-label" for="form2">Jumlah</label>
                                         </div>
 
                                         <button class="btn btn-secondary px-3 ms-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp(); hitungTotal()">
@@ -132,7 +136,7 @@
                     </div>
                     <div class="card mb-4 mb-lg-0">
                         <div class="card-body">
-                            <p><strong>We accept</strong></p>
+                            <p><strong>Metode Pembayaran</strong></p>
                             <img class="me-2" width="45px" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg" alt="Visa" />
                             <img class="me-2" width="45px" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg" alt="American Express" />
                             <img class="me-2" width="45px" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg" alt="Mastercard" />
@@ -143,23 +147,23 @@
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-header py-3">
-                            <h5 class="mb-0">Summary</h5>
+                            <h5 class="mb-0">Rincian Pembayaran</h5>
                         </div>
                         <div class="card-body">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
-                                    Products
+                                    Produk
                                     <span id="total">0</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                    Shipping
+                                    Pengiriman
                                     <span>Gratis</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
                                     <div>
-                                        <strong>Total amount</strong>
+                                        <strong>Total Pembayaran</strong>
                                         <strong>
-                                            <p class="mb-0">(including VAT)</p>
+                                            <p class="mb-0">(Termasuk Pajak)</p>
                                         </strong>
                                     </div>
                                     <span id="grand-total"><strong>0</strong></span>

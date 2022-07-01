@@ -1,6 +1,6 @@
 <!-- CTA WhatsApp -->
-<a href="https://api.whatsapp.com/send/?phone=6282288909088&text=Hi%2C+Space+Roastery+%EF%BF%BD&app_absent=0" target="_blank" class="btn btn-whatsapp btn-icon btn-icon-left" id="cta">
-    <span class="fa fa-whatsapp fa-2x" style="font-size: 20px;">&nbsp; CHAT TO WHATSAPP</span>
+<a href="https://api.whatsapp.com/send/?phone=6282288909088&text=Hi%2C+Space+Roastery+%EF%BF%BD&app_absent=0" target="_blank" class="btn btn-whatsapp btn-icon btn-icon-left shadow" id="cta">
+  <span> <i class="fa fa-whatsapp fa-2x" style="font-size: 20px;"></i>&nbsp; CHAT TO WHATSAPP</span>
 </a>
 
 <!-- Section Footer -->
@@ -18,12 +18,12 @@
         <div class="col-md-2 mt-5">
           <h5>Menu</h5>
           <ul>
-            <li><a href="/">Beranda</a></li>
-            <li><a href="/">Tentang Kami</a></li>
-            <li><a href="/">Produk</a></li>
-            <li><a href="/">Keranjang</a></li>
-            <li><a href="/">Kontak</a></li>
-            <li><a href="/">Login</a></li>
+            <li><a href="./">Beranda</a></li>
+            <li><a href="aboutus.php">Tentang Kami</a></li>
+            <li><a href="produk.php">Produk</a></li>
+            <li><a href="checkout.php">Keranjang</a></li>
+            <li><a href="kontak.php">Kontak</a></li>
+            <li><a href="./">Login</a></li>
           </ul>
         </div>
         <div class="col-md-3 mt-5">
@@ -41,21 +41,20 @@
               <input type="email" class="form-control" placeholder="Masukkan Email">
             </div>
             <div class="mb-3">
-              <textarea class="form-control" placeholder="Masukkan Pesan" id="exampleFormControlTextarea1"
-                rows="5"></textarea>
+              <textarea class="form-control" placeholder="Masukkan Pesan" id="exampleFormControlTextarea1" rows="5"></textarea>
             </div>
             <button type="submit" class="btn btn-sm float-end btn-primary">Kirim Pesan</button>
           </form>
         </div>
-      </div>     
-    </div>  
+      </div>
+    </div>
   </div>
-  
+
   <!-- Copyright -->
   <div class="text-center copyright p-3">
-  © 2022 Created by KLA PROJECT
+    © 2022 Created by KLA PROJECT
   </div>
   <!-- Copyright -->
-  
+
 </section>
 <!-- End section footer -->
